@@ -2,7 +2,7 @@ module.exports.config = {
  'name': "ajan",
  'version': "2.0",
  'hasPermssion': 0x0,
- 'credits': "Islamick Cyber Chat",
+ 'credits': "👑 𝐃𝐑𝐄𝐀𝐌 𝐓𝐄𝐀𝐌 ☣️🌿",
  'description': "সেট করা সময় অনুযায়ী স্বয়ংক্রিয়ভাবে বার্তাগুলি পাঠানো হবে!",
  'commandCategory': "AutoTime",
  'countDown': 0x3
