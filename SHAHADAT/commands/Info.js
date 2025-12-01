@@ -2,7 +2,7 @@ module.exports.config = {
  name: "info",
  version: "1.2.6",
  hasPermssion: 0,
- credits: "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦",
+ credits: "𝐀𝐡𝐦𝐞𝐝 𝐑𝐚𝐣𝐮",
  description: "Bot information command",
  commandCategory: "For users",
  hide: true,
@@ -36,7 +36,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 ─┄┅═════❁🌺❁═════┅┄─
 🌟 BOT INFORMATION 🌟
 ─┄┅═════❁🌺❁═════┅┄─
-Bot Name : Shahadat Chat Bot
+Bot Name : DREAM TEAM BOT
 Prefix : ${config.PREFIX}
 Thread Prefix : ${prefix}
 Modules : ${commands.size}
@@ -45,10 +45,10 @@ Ping : ${Date.now() - event.timestamp}ms
 ─┄┅═════❁🌺❁═════┅┄─
 🌟 OWNER INFORMATION 🌟
 ─┄┅═════❁🌺❁═════┅┄─
-Name : Shahadat Islam
-Facebook : facebook.com/61575698041722
-Messenger : m.me/61575698041722
-WhatsApp : wa.me/+8801882333052
+Name : RAJU OFCL 
+Facebook : https://www.facebook.com/share/14Q1apA4xg9/
+Messenger : https://m.me/j/AbbMdf885eIA4qaM/
+WhatsApp : wa.me/+8801815896135
 
 ─┄┅═════❁🌺❁═════┅┄─
 🌟 ACTIVITIES 🌟
@@ -58,16 +58,13 @@ Groups : ${totalThreads}
 Total Users : ${totalUsers}
 
 ─┄┅═════❁🌺❁═════┅┄─
-Thanks for using 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦𝐢𝐜 𝐁𝐨𝐭
+Thanks for using RAJU OFCL BOT
 ─┄┅═════❁🌺❁═════┅┄─
 `;
 
  // Imgur Images
  const imgLinks = [
- "https://i.imgur.com/zqsuJnX.jpeg",
- "https://i.imgur.com/sxSn1K3.jpeg",
- "https://i.imgur.com/wu0iDqS.jpeg",
- "https://i.imgur.com/Huz3nAE.png"
+ "https://img.sanishtech.com/u/fc3408ba0b4d8f707a1ba9f530530ef5.png",
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
