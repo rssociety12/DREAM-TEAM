@@ -2,7 +2,7 @@ module.exports.config = {
  name: "help",
  version: "1.0.4",
  hasPermssion: 0,
- credits: "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦",
+ credits: "𝐀𝐡𝐦𝐞𝐝 𝐑𝐚𝐣𝐮",
  description: "Shows all commands with details",
  commandCategory: "system",
  usages: "[command name/page number]",
@@ -27,8 +27,8 @@ module.exports.languages = {
 %5
 ╠═══════════════════════╣
 ║ 🌼 Prefix: %6
-║ 🌸 Bot Name: 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦𝐢𝐜 𝐁𝐨𝐭
-║ 🍁 Owner: 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦
+║ 🌸 Bot Name: DREAM TEAM BOT
+║ 🍁 Owner: 𝐀𝐡𝐦𝐞𝐝 𝐑𝐚𝐣𝐮
 ╚═══════════════════════╝
 `
  }
@@ -36,10 +36,10 @@ module.exports.languages = {
 
 // ৪টি ইমগুর লিংক অ্যারে
 const imgLinks = [
- "https://i.imgur.com/sxSn1K3.jpeg",
- "https://i.imgur.com/8WvpgUL.jpeg",
- "https://i.imgur.com/3K5e9Vq.jpeg",
- "https://i.imgur.com/qeT5y2X.jpeg"
+ "https://img.sanishtech.com/u/fc3408ba0b4d8f707a1ba9f530530ef5.png",
+ "",
+ "",
+ ""
 ];
 
 module.exports.handleEvent = function ({ api, event, getText }) {
@@ -122,8 +122,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ╠════════════════════════╣
 ${msg}╠════════════════════════╣
 ║ 🌼 Prefix: ${prefix}
-║ 🌸 Bot Name: 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦𝐢𝐜 𝐁𝐨𝐭
-║ 🌺 Owner Name: 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦
+║ 🌸 Bot Name: DREAM TEAM BOT
+║ 🌺 Owner Name: 𝐀𝐡𝐦𝐞𝐝 𝐑𝐚𝐣𝐮
 ╚═════════════════════════╝
 `;
 
