@@ -7,7 +7,7 @@ module.exports.config = {
  name: "admin",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦",
+ credits: "𝐀𝐡𝐦𝐞𝐝 𝐑𝐚𝐣𝐮",
  description: "Show Owner Info",
  commandCategory: "info",
  usages: "admin",
@@ -22,19 +22,19 @@ module.exports.run = async function({ api, event }) {
 ══════════════════════
  🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟
 ══════════════════════
-👤 𝐍𝐚𝐦𝐞 : 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦
+👤 𝐍𝐚𝐦𝐞 : 𝐀𝐡𝐦𝐞𝐝 𝐑𝐚𝐣𝐮
 🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : 𝐌𝐚𝐥𝐞
-❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : 𝐒𝐢𝐧𝐠𝐥𝐞
+❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : 𝐀𝐤𝐡𝐢𝐫 𝐉𝐚𝐦𝐚𝐢
 🎂 𝐀𝐠𝐞 : 𝟏𝟖+
 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : 𝐈𝐬𝐥𝐚𝐦
 🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : 𝐇𝐒𝐂 (𝟐𝟎𝟐𝟔)
-🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : 𝐊𝐡𝐚𝐠𝐫𝐚𝐜𝐡𝐡𝐚𝐫𝐢
+🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : 𝐍𝐨𝐚𝐤𝐡𝐚𝐥𝐢,𝐅𝐞𝐧𝐢
 ══════════════════════
 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
-https://facebook.com/100001039692046
+https://www.facebook.com/share/14Q1apA4xg9/
 
 💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-https://wa.me/01882333052
+https://wa.me/01815896135
 ══════════════════════
 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞: ${time}
 ══════════════════════
@@ -42,7 +42,7 @@ https://wa.me/01882333052
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
  }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/owner.jpg"));
 
- return request("https://i.imgur.com/8WvpgUL.jpeg")
+ return request("https://img.sanishtech.com/u/fc3408ba0b4d8f707a1ba9f530530ef5.png")
  .pipe(fs.createWriteStream(__dirname + '/cache/owner.jpg'))
  .on('close', () => callback());
 };
